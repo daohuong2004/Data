@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+repositories/http\:__www.eclipse.org_equinox_p2_testing_updateSite/count=1
+repositories/http\:__www.eclipse.org_equinox_p2_testing_updateSite/enabled=true
+repositories/http\:__www.eclipse.org_equinox_p2_testing_updateSite/uri=http\://www.eclipse.org/equinox/p2/testing/updateSite

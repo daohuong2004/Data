@@ -1,0 +1,48 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: qpme.qpe.core
+Bundle-SymbolicName: qpme.qpe.core;singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: runner
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.ui
+ .intro,org.eclipse.ui.forms,org.eclipse.swt,org.eclipse.gef,org.eclip
+ se.ui.views,org.eclipse.ui.console,qpme.model.migration;bundle-versio
+ n="2.2.0",org.dom4j,org.jfreechart.core;bundle-version="1.0.12",org.j
+ freechart.jcommon;bundle-version="1.0.15",org.jfreechart.swt;bundle-v
+ ersion="1.0.12",org.rosuda.JRI;bundle-version="0.5.0",org.jaxen
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: Descartes Research Group
+Import-Package: org.apache.log4j
+Export-Package: de.tud.cs.qpe,de.tud.cs.qpe.editors.incidence,de.tud.c
+ s.qpe.editors.incidence.controller.command,de.tud.cs.qpe.editors.inci
+ dence.controller.editpart,de.tud.cs.qpe.editors.incidence.controller.
+ factory,de.tud.cs.qpe.editors.incidence.gef,de.tud.cs.qpe.editors.inc
+ idence.gef.actionbar,de.tud.cs.qpe.editors.incidence.gef.menu,de.tud.
+ cs.qpe.editors.incidence.gef.palette,de.tud.cs.qpe.editors.incidence.
+ gef.property,de.tud.cs.qpe.editors.incidence.model,de.tud.cs.qpe.edit
+ ors.incidence.view.anchor,de.tud.cs.qpe.editors.incidence.view.figure
+ ,de.tud.cs.qpe.editors.incidence.view.layout,de.tud.cs.qpe.editors.ne
+ t,de.tud.cs.qpe.editors.net.controller.command,de.tud.cs.qpe.editors.
+ net.controller.editpart.editor,de.tud.cs.qpe.editors.net.controller.e
+ ditpart.outline,de.tud.cs.qpe.editors.net.controller.factory,de.tud.c
+ s.qpe.editors.net.gef,de.tud.cs.qpe.editors.net.gef.action,de.tud.cs.
+ qpe.editors.net.gef.actionbar,de.tud.cs.qpe.editors.net.gef.menu,de.t
+ ud.cs.qpe.editors.net.gef.palette,de.tud.cs.qpe.editors.net.gef.palet
+ te.templates,de.tud.cs.qpe.editors.net.gef.property,de.tud.cs.qpe.edi
+ tors.net.gef.property.place,de.tud.cs.qpe.editors.net.gef.property.tr
+ ansition,de.tud.cs.qpe.editors.net.view.anchor,de.tud.cs.qpe.editors.
+ net.view.figure,de.tud.cs.qpe.editors.net.view.figure.place,de.tud.cs
+ .qpe.editors.net.view.figure.transition,de.tud.cs.qpe.editors.query,d
+ e.tud.cs.qpe.editors.query.model,de.tud.cs.qpe.editors.query.widgets,
+ de.tud.cs.qpe.editors.r,de.tud.cs.qpe.editors.subnet,de.tud.cs.qpe.ed
+ itors.subnet.controller.editpart,de.tud.cs.qpe.editors.subnet.control
+ ler.factory,de.tud.cs.qpe.editors.visualization,de.tud.cs.qpe.model,d
+ e.tud.cs.qpe.rcp,de.tud.cs.qpe.rcp.actions.context,de.tud.cs.qpe.rcp.
+ actions.file,de.tud.cs.qpe.utils,de.tud.cs.qpe.utils.view.anchor
+Bundle-Name: QPE-Base Plug-in
+Bundle-Version: 2.2.0.202106150721
+Bundle-Activator: de.tud.cs.qpe.QPEBasePlugin
+Created-By: Apache Maven 3.8.1
+Build-Jdk: 1.8.0_292
+
