@@ -1,64 +1,98 @@
 import pandas as pd
 import numpy as np
 from scipy.stats import ranksums
+import os
 
-def calculate_cliffs_delta(lst1, lst2):
-    """Tính toán chỉ số Cliff's Delta (Mức độ ảnh hưởng phi tham số)"""
-    m, n = len(lst1), len(lst2)
+ALPHA = 0.05
+TAU = 0.147
+WARMUP_RUNS = 10
+
+def calculate_cliffs_delta(new_samples, base_samples):
+    """Đo lường mức độ ảnh hưởng thực tế (Practical Significance)"""
+    m, n = len(base_samples), len(new_samples)
     count = 0
-    for i in lst1:
-        for j in lst2:
-            if i > j: count += 1
-            elif i < j: count -= 1
+    for i in base_samples:
+        for j in new_samples:
+            if j > i: count += 1
+            elif j < i: count -= 1
     return count / (m * n)
 
-def signal_conditioning(data):
-    """Stage 2: Loại bỏ 10 mẫu đầu (Warm-up) và lọc ngoại lệ IQR"""
-    # 1. Discard Warm-up
-    df_steady = data.iloc[10:].copy()
+def signal_conditioning(df, signature):
+    """
+    Stage 2: Làm sạch tín hiệu
+    - Lọc đúng hàm mục tiêu
+    - Xóa 10 mẫu đầu (Warm-up)
+    - Lọc ngoại lệ (IQR)
+    """
+    # 1. Lọc theo chữ ký phương thức (Operation Signature)
+    df_filtered = df[df['signature'].str.contains(signature)].copy()
     
-    # 2. IQR Filtering
+    if len(df_filtered) < WARMUP_RUNS + 5:
+        return None
+
+    # 2. Tính duration (ms) và loại bỏ Warm-up
+    df_filtered['duration'] = (df_filtered['tout'] - df_filtered['tin']) / 1_000_000
+    df_steady = df_filtered.iloc[WARMUP_RUNS:].copy()
+    
+    # 3. Lọc ngoại lệ bằng IQR
     Q1 = df_steady['duration'].quantile(0.25)
     Q3 = df_steady['duration'].quantile(0.75)
     IQR = Q3 - Q1
     lower = Q1 - 1.5 * IQR
     upper = Q3 + 1.5 * IQR
     
-    return df_steady[(df_steady['duration'] >= lower) & (df_steady['duration'] <= upper)]
+    S_clean = df_steady[(df_steady['duration'] >= lower) & (df_steady['duration'] <= upper)]
+    return S_clean['duration'].values
 
-def identify_deviations(base_file, new_file):
-    """Stage 3: Kiểm định thống kê hai lớp (Wilcoxon + Cliff's Delta)"""
-    # Đọc dữ liệu (Kieker .dat format: tách bằng dấu ;)
+def process_ppdx(base_path, new_path, target_signature):
+    """
+    STAGE 3: Định danh sai lệch cục bộ từ file .dat thật
+    """
     cols = ['type', 'timestamp', 'signature', 'session', 'trace_id', 'tin', 'tout', 'host', 'index', 'depth']
-    df_base = pd.read_csv(base_file, sep=';', names=cols, header=None)
-    df_new = pd.read_csv(new_file, sep=';', names=cols, header=None)
     
-    # Tính duration (nanosecond -> millisecond)
-    df_base['duration'] = (df_base['tout'] - df_base['tin']) / 1_000_000
-    df_new['duration'] = (df_new['tout'] - df_new['tin']) / 1_000_000
+    # Đọc file dữ liệu thô (đối tượng truyền từ Stage 1)
+    try:
+        df_base_raw = pd.read_csv(base_path, sep=';', names=cols, header=None, on_bad_lines='skip')
+        df_new_raw = pd.read_csv(new_path, sep=';', names=cols, header=None, on_bad_lines='skip')
+    except Exception as e:
+        return f"Lỗi đọc file: {e}"
+
+    # Thực hiện làm sạch (Stage 2)
+    S_base = signal_conditioning(df_base_raw, target_signature)
+    S_new = signal_conditioning(df_new_raw, target_signature)
+
+    if S_base is None or S_new is None:
+        return "Không đủ dữ liệu cho hàm mục tiêu (Check signature!)"
+
+    # Kiểm định Wilcoxon (Stage 3 - Lớp 1)
+    stat, p_val = ranksums(S_base, S_new)
     
-    # Làm sạch dữ liệu
-    S_base = signal_conditioning(df_base)
-    S_new = signal_conditioning(df_new)
+    # Tính Cliff's Delta (Stage 3 - Lớp 2)
+    d = calculate_cliffs_delta(S_new, S_base)
     
-    # Kiểm định Wilcoxon (Existence)
-    stat, p_val = ranksums(S_base['duration'], S_new['duration'])
+    # Tính toán MPD cục bộ (Đối tượng truyền sang Stage 4)
+    mpd_local = np.mean(S_new) - np.mean(S_base)
     
-    # Tính Cliff's Delta (Magnitude)
-    d = calculate_cliffs_delta(S_new['duration'].values, S_base['duration'].values)
-    
-    # Cổng quyết định PPDX
-    is_regression = p_val < 0.05 and abs(d) >= 0.147
-    mpd_local = S_new['duration'].mean() - S_base['duration'].mean()
-    
+    is_regression = (p_val < ALPHA) and (abs(d) >= TAU)
+
     return {
-        "p_value": p_val,
-        "cliffs_delta": d,
-        "is_significant": is_regression,
-        "mpd_ms": mpd_local
+        "Target": target_signature.split('.')[-1], # Tên hàm rút gọn
+        "Samples": len(S_new),
+        "P-Value": round(p_val, 5),
+        "Cliff-Delta": round(d, 3),
+        "MPD_Local (ms)": round(mpd_local, 2),
+        "Result": "REGRESSION" if is_regression else "STABLE"
     }
 
-# Chạy thử nghiệm cho một kịch bản
+
 if __name__ == "__main__":
-    res = identify_deviations('data/base/kieker.dat', 'data/new/kieker.dat')
-    print(f"Kết quả phân tích cục bộ: {res}")
+    
+    # Cần sửa path đúng rồi mới chạy 
+    # BASE_DAT = "Để f"
+    # NEW_DAT = "path/to/buggy/kieker-2023...dat"
+    
+    # SIG = "tools.descartes.teastore.auth.security.ShaSecurityProvider.validate"
+
+    print("--- PPDX Local Analysis Pipeline ---")
+    result = process_ppdx(BASE_DAT, NEW_DAT, SIG)
+    print(result)
