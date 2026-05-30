@@ -1,0 +1,1367 @@
+INFO Logging to C:\Users\Admin\Downloads\qpme_models\SimQPN_Output_new configuration_2026-03-26_193212632.log
+WARN Batch means correlation test was run for depository of place Workload, color 0
+    However, the standard deviation of the token residence time is 0 and therefore the result of the test is ignored!
+    In future runs, you should set numBMeansCorlTested to 0 to switch off the correlation test!
+WARN Batch means correlation test was run for depository of place W/logout, color 0
+    However, the standard deviation of the token residence time is 0 and therefore the result of the test is ignored!
+    In future runs, you should set numBMeansCorlTested to 0 to switch off the correlation test!
+WARN Batch means correlation test was run for depository of place A/logout_logout, color 0
+    However, the standard deviation of the token residence time is 0 and therefore the result of the test is ignored!
+    In future runs, you should set numBMeansCorlTested to 0 to switch off the correlation test!
+WARN Batch means correlation test was run for depository of place P/category_logout, color 0
+    However, the standard deviation of the token residence time is 0 and therefore the result of the test is ignored!
+    In future runs, you should set numBMeansCorlTested to 0 to switch off the correlation test!
+WARN Batch means correlation test was run for depository of place I/icon_logout, color 0
+    However, the standard deviation of the token residence time is 0 and therefore the result of the test is ignored!
+    In future runs, you should set numBMeansCorlTested to 0 to switch off the correlation test!
+WARN Batch means correlation test was run for depository of place W/loginAction, color 0
+    However, the standard deviation of the token residence time is 0 and therefore the result of the test is ignored!
+    In future runs, you should set numBMeansCorlTested to 0 to switch off the correlation test!
+WARN Batch means correlation test was run for depository of place A/login_loginAction, color 0
+    However, the standard deviation of the token residence time is 0 and therefore the result of the test is ignored!
+    In future runs, you should set numBMeansCorlTested to 0 to switch off the correlation test!
+WARN Batch means correlation test was run for depository of place P/getUser_loginAction, color 0
+    However, the standard deviation of the token residence time is 0 and therefore the result of the test is ignored!
+    In future runs, you should set numBMeansCorlTested to 0 to switch off the correlation test!
+WARN Batch means correlation test was run for depository of place I/icon_loginAction, color 0
+    However, the standard deviation of the token residence time is 0 and therefore the result of the test is ignored!
+    In future runs, you should set numBMeansCorlTested to 0 to switch off the correlation test!
+WARN Batch means correlation test was run for depository of place W/login, color 0
+    However, the standard deviation of the token residence time is 0 and therefore the result of the test is ignored!
+    In future runs, you should set numBMeansCorlTested to 0 to switch off the correlation test!
+WARN Batch means correlation test was run for depository of place P/categories_login, color 0
+    However, the standard deviation of the token residence time is 0 and therefore the result of the test is ignored!
+    In future runs, you should set numBMeansCorlTested to 0 to switch off the correlation test!
+WARN Batch means correlation test was run for depository of place I/icon_login, color 0
+    However, the standard deviation of the token residence time is 0 and therefore the result of the test is ignored!
+    In future runs, you should set numBMeansCorlTested to 0 to switch off the correlation test!
+WARN Batch means correlation test was run for depository of place A/isLoggedIn_login, color 0
+    However, the standard deviation of the token residence time is 0 and therefore the result of the test is ignored!
+    In future runs, you should set numBMeansCorlTested to 0 to switch off the correlation test!
+WARN Batch means correlation test was run for depository of place W/index, color 0
+    However, the standard deviation of the token residence time is 0 and therefore the result of the test is ignored!
+    In future runs, you should set numBMeansCorlTested to 0 to switch off the correlation test!
+WARN Batch means correlation test was run for depository of place P/categories_index, color 0
+    However, the standard deviation of the token residence time is 0 and therefore the result of the test is ignored!
+    In future runs, you should set numBMeansCorlTested to 0 to switch off the correlation test!
+WARN Batch means correlation test was run for depository of place A/isLoggedIn_index, color 0
+    However, the standard deviation of the token residence time is 0 and therefore the result of the test is ignored!
+    In future runs, you should set numBMeansCorlTested to 0 to switch off the correlation test!
+WARN Batch means correlation test was run for depository of place I/icon_index, color 0
+    However, the standard deviation of the token residence time is 0 and therefore the result of the test is ignored!
+    In future runs, you should set numBMeansCorlTested to 0 to switch off the correlation test!
+WARN Batch means correlation test was run for depository of place W/product, color 0
+    However, the standard deviation of the token residence time is 0 and therefore the result of the test is ignored!
+    In future runs, you should set numBMeansCorlTested to 0 to switch off the correlation test!
+WARN Batch means correlation test was run for depository of place P/getProduct_product, color 0
+    However, the standard deviation of the token residence time is 0 and therefore the result of the test is ignored!
+    In future runs, you should set numBMeansCorlTested to 0 to switch off the correlation test!
+WARN Batch means correlation test was run for depository of place R/getAds_product, color 0
+    However, the standard deviation of the token residence time is 0 and therefore the result of the test is ignored!
+    In future runs, you should set numBMeansCorlTested to 0 to switch off the correlation test!
+WARN Batch means correlation test was run for depository of place I/product_product, color 0
+    However, the standard deviation of the token residence time is 0 and therefore the result of the test is ignored!
+    In future runs, you should set numBMeansCorlTested to 0 to switch off the correlation test!
+WARN Batch means correlation test was run for depository of place A/isLoggedIn_product, color 0
+    However, the standard deviation of the token residence time is 0 and therefore the result of the test is ignored!
+    In future runs, you should set numBMeansCorlTested to 0 to switch off the correlation test!
+WARN Batch means correlation test was run for depository of place W/category, color 0
+    However, the standard deviation of the token residence time is 0 and therefore the result of the test is ignored!
+    In future runs, you should set numBMeansCorlTested to 0 to switch off the correlation test!
+WARN Batch means correlation test was run for depository of place P/category_category, color 0
+    However, the standard deviation of the token residence time is 0 and therefore the result of the test is ignored!
+    In future runs, you should set numBMeansCorlTested to 0 to switch off the correlation test!
+WARN Batch means correlation test was run for depository of place I/productImages_category, color 0
+    However, the standard deviation of the token residence time is 0 and therefore the result of the test is ignored!
+    In future runs, you should set numBMeansCorlTested to 0 to switch off the correlation test!
+WARN Batch means correlation test was run for depository of place A/isLoggedIn_category, color 0
+    However, the standard deviation of the token residence time is 0 and therefore the result of the test is ignored!
+    In future runs, you should set numBMeansCorlTested to 0 to switch off the correlation test!
+WARN The simulation was stopped because of reaching max totalRunLen.
+The required precision may not have been reached!
+REPORT for Queue of Queueing Place : W/index----------------------------------------
+
+queueUtilQPl=0.05843768168761067
+
+------------------ Color = index --------------------
+arrivCnt=1500337 deptCnt=1500337
+arrivThrPut=16.67041098404282 deptThrPut=16.67041098404282
+meanTkPop=0.1187296144835945 tkColOcp=0.10548938000186207
+-----
+meanST=0.007122176807593066 stDevST=0.008561252404189958
+
+Steady State Statistics: numBatchesST=3750 batchSizeST=400 stDevStdStateMeanST=6.153599280594086E-4
+95% c.i. = 0.007122097951137411 +/- 1.9695257758543856E-5
+
+
+
+REPORT for Depository of Queueing Place : W/index----------------------------------------
+
+tkOcp=0.0
+
+------------------ Color = index --------------------
+arrivCnt=1500337 deptCnt=1500337
+arrivThrPut=16.67041098404282 deptThrPut=16.67041098404282
+meanTkPop=0.0 tkColOcp=0.0
+-----
+meanST=0.0 stDevST=0.0
+
+Steady State Statistics: numBatchesST=7501 batchSizeST=200 stDevStdStateMeanST=0.0
+95% c.i. = 0.0 +/- 0.0
+
+
+
+REPORT for Queue : WebUI----------------------------------------
+
+totArrivThrPut=99.97392146018251 totDeptThrPut=99.97391034907149
+meanTotTkPop=1.1682437394547494 queueUtil=0.4455517441031753
+meanST=0.011685481717072973
+
+
+
+REPORT for Queue of Queueing Place : P/categories_index----------------------------------------
+
+queueUtilQPl=0.018770584633476434
+
+------------------ Color = index --------------------
+arrivCnt=1500337 deptCnt=1500337
+arrivThrPut=16.67041098404282 deptThrPut=16.67041098404282
+meanTkPop=0.03765178635340534 tkColOcp=0.03615632384858809
+-----
+meanST=0.0022585997663432666 stDevST=0.0026024162844627417
+
+Steady State Statistics: numBatchesST=3750 batchSizeST=400 stDevStdStateMeanST=1.483688205145338E-4
+95% c.i. = 0.0022585923022875303 +/- 4.748704018768603E-6
+
+
+
+REPORT for Depository of Queueing Place : P/categories_index----------------------------------------
+
+tkOcp=0.0
+
+------------------ Color = index --------------------
+arrivCnt=1500337 deptCnt=1500338
+arrivThrPut=16.67041098404282 deptThrPut=16.67042209515385
+meanTkPop=0.0 tkColOcp=0.0
+-----
+meanST=0.0 stDevST=0.0
+
+Steady State Statistics: numBatchesST=7501 batchSizeST=200 stDevStdStateMeanST=0.0
+95% c.i. = 0.0 +/- 0.0
+
+
+
+REPORT for Queue : Persistence----------------------------------------
+
+totArrivThrPut=99.97392146018251 totDeptThrPut=99.97391034907147
+meanTotTkPop=0.44885542784948146 queueUtil=0.2091323918201416
+meanST=0.004489722313405273
+
+
+
+REPORT for Queue of Queueing Place : A/isLoggedIn_index----------------------------------------
+
+queueUtilQPl=0.025025094348562916
+
+------------------ Color = index --------------------
+arrivCnt=1500338 deptCnt=1500338
+arrivThrPut=16.67042209515385 deptThrPut=16.67042209515385
+meanTkPop=0.05195276971884684 tkColOcp=0.043684683857814786
+-----
+meanST=0.0031164639636779017 stDevST=0.008019050944937354
+
+Steady State Statistics: numBatchesST=1875 batchSizeST=800 stDevStdStateMeanST=4.3838391501099783E-4
+95% c.i. = 0.0031163131492344524 +/- 1.9842759370996244E-5
+
+
+
+REPORT for Depository of Queueing Place : A/isLoggedIn_index----------------------------------------
+
+tkOcp=0.0
+
+------------------ Color = index --------------------
+arrivCnt=1500338 deptCnt=1500338
+arrivThrPut=16.67042209515385 deptThrPut=16.67042209515385
+meanTkPop=0.0 tkColOcp=0.0
+-----
+meanST=0.0 stDevST=0.0
+
+Steady State Statistics: numBatchesST=7501 batchSizeST=200 stDevStdStateMeanST=0.0
+95% c.i. = 0.0 +/- 0.0
+
+
+
+REPORT for Queue : Auth----------------------------------------
+
+totArrivThrPut=99.97391034907149 totDeptThrPut=99.97392146018251
+meanTotTkPop=0.7811330808356651 queueUtil=0.2969322724977984
+meanST=0.007813369464593878
+
+
+
+REPORT for Queue of Queueing Place : W/login----------------------------------------
+
+queueUtilQPl=0.058643594087622264
+
+------------------ Color = login --------------------
+arrivCnt=1500043 deptCnt=1500043
+arrivThrPut=16.667144317401057 deptThrPut=16.667144317401057
+meanTkPop=0.11919706044548585 tkColOcp=0.10584813025267444
+-----
+meanST=0.007151618668174616 stDevST=0.008585572561696272
+
+Steady State Statistics: numBatchesST=3750 batchSizeST=400 stDevStdStateMeanST=6.196916192177333E-4
+95% c.i. = 0.007151306632337238 +/- 1.98338982029463E-5
+
+
+
+REPORT for Depository of Queueing Place : W/login----------------------------------------
+
+tkOcp=0.0
+
+------------------ Color = login --------------------
+arrivCnt=1500043 deptCnt=1500043
+arrivThrPut=16.667144317401057 deptThrPut=16.667144317401057
+meanTkPop=0.0 tkColOcp=0.0
+-----
+meanST=0.0 stDevST=0.0
+
+Steady State Statistics: numBatchesST=7500 batchSizeST=200 stDevStdStateMeanST=0.0
+95% c.i. = 0.0 +/- 0.0
+
+
+
+REPORT for Queue : WebUI----------------------------------------
+
+totArrivThrPut=99.97392146018251 totDeptThrPut=99.97391034907149
+meanTotTkPop=1.1682437394547494 queueUtil=0.4455517441031753
+meanST=0.011685481717072973
+
+
+
+REPORT for Queue of Queueing Place : W/loginAction----------------------------------------
+
+queueUtilQPl=0.08168482669107037
+
+------------------ Color = loginAction --------------------
+arrivCnt=1498842 deptCnt=1498842
+arrivThrPut=16.65379987305833 deptThrPut=16.65379987305833
+meanTkPop=0.1661983403482886 tkColOcp=0.14582784379482933
+-----
+meanST=0.009979604751775348 stDevST=0.01032536029327786
+
+Steady State Statistics: numBatchesST=3747 batchSizeST=400 stDevStdStateMeanST=7.0852150806427E-4
+95% c.i. = 0.009979495062080967 +/- 2.26860707840231E-5
+
+
+
+REPORT for Depository of Queueing Place : W/loginAction----------------------------------------
+
+tkOcp=0.0
+
+------------------ Color = loginAction --------------------
+arrivCnt=1498842 deptCnt=1498842
+arrivThrPut=16.65379987305833 deptThrPut=16.65379987305833
+meanTkPop=0.0 tkColOcp=0.0
+-----
+meanST=0.0 stDevST=0.0
+
+Steady State Statistics: numBatchesST=7494 batchSizeST=200 stDevStdStateMeanST=0.0
+95% c.i. = 0.0 +/- 0.0
+
+
+
+REPORT for Queue : WebUI----------------------------------------
+
+totArrivThrPut=99.97392146018251 totDeptThrPut=99.97391034907149
+meanTotTkPop=1.1682437394547494 queueUtil=0.4455517441031753
+meanST=0.011685481717072973
+
+
+
+REPORT for Queue of Queueing Place : A/login_loginAction----------------------------------------
+
+queueUtilQPl=0.2269180535612172
+
+------------------ Color = loginAction --------------------
+arrivCnt=1498842 deptCnt=1498843
+arrivThrPut=16.65379987305833 deptThrPut=16.653810984169354
+meanTkPop=0.47969739941601813 tkColOcp=0.3682588621064615
+-----
+meanST=0.028804067983540623 stDevST=0.028036379128828264
+
+Steady State Statistics: numBatchesST=1873 batchSizeST=800 stDevStdStateMeanST=0.0012182178287624343
+95% c.i. = 0.028803447717650827 +/- 5.517014857083923E-5
+
+
+
+REPORT for Depository of Queueing Place : A/login_loginAction----------------------------------------
+
+tkOcp=0.0
+
+------------------ Color = loginAction --------------------
+arrivCnt=1498843 deptCnt=1498843
+arrivThrPut=16.653810984169354 deptThrPut=16.653810984169354
+meanTkPop=0.0 tkColOcp=0.0
+-----
+meanST=0.0 stDevST=0.0
+
+Steady State Statistics: numBatchesST=7494 batchSizeST=200 stDevStdStateMeanST=0.0
+95% c.i. = 0.0 +/- 0.0
+
+
+
+REPORT for Queue : Auth----------------------------------------
+
+totArrivThrPut=99.97391034907149 totDeptThrPut=99.97392146018251
+meanTotTkPop=0.7811330808356651 queueUtil=0.2969322724977984
+meanST=0.007813369464593878
+
+
+
+REPORT for Queue of Queueing Place : W/logout----------------------------------------
+
+queueUtilQPl=0.08051279684484457
+
+------------------ Color = logout --------------------
+arrivCnt=1499965 deptCnt=1499965
+arrivThrPut=16.666277650740994 deptThrPut=16.666277650740994
+meanTkPop=0.1638025767314362 tkColOcp=0.143822297547589
+-----
+meanST=0.00982838400776033 stDevST=0.010224415708580256
+
+Steady State Statistics: numBatchesST=3749 batchSizeST=400 stDevStdStateMeanST=6.99762005142189E-4
+95% c.i. = 0.00982833820797398 +/- 2.23996240233837E-5
+
+
+
+REPORT for Depository of Queueing Place : W/logout----------------------------------------
+
+tkOcp=0.0
+
+------------------ Color = logout --------------------
+arrivCnt=1499965 deptCnt=1499965
+arrivThrPut=16.666277650740994 deptThrPut=16.666277650740994
+meanTkPop=0.0 tkColOcp=0.0
+-----
+meanST=0.0 stDevST=0.0
+
+Steady State Statistics: numBatchesST=7499 batchSizeST=200 stDevStdStateMeanST=0.0
+95% c.i. = 0.0 +/- 0.0
+
+
+
+REPORT for Queue : WebUI----------------------------------------
+
+totArrivThrPut=99.97392146018251 totDeptThrPut=99.97391034907149
+meanTotTkPop=1.1682437394547494 queueUtil=0.4455517441031753
+meanST=0.011685481717072973
+
+
+
+REPORT for Queue of Queueing Place : A/logout_logout----------------------------------------
+
+queueUtilQPl=0.03406408801809044
+
+------------------ Color = logout --------------------
+arrivCnt=1499965 deptCnt=1499965
+arrivThrPut=16.666277650740994 deptThrPut=16.666277650740994
+meanTkPop=0.06999562351828145 tkColOcp=0.06112458850508212
+-----
+meanST=0.004199835439269152 stDevST=0.008106131068629544
+
+Steady State Statistics: numBatchesST=3749 batchSizeST=400 stDevStdStateMeanST=6.398162407000779E-4
+95% c.i. = 0.004199555894284862 +/- 2.048073935198065E-5
+
+
+
+REPORT for Depository of Queueing Place : A/logout_logout----------------------------------------
+
+tkOcp=0.0
+
+------------------ Color = logout --------------------
+arrivCnt=1499965 deptCnt=1499965
+arrivThrPut=16.666277650740994 deptThrPut=16.666277650740994
+meanTkPop=0.0 tkColOcp=0.0
+-----
+meanST=0.0 stDevST=0.0
+
+Steady State Statistics: numBatchesST=7499 batchSizeST=200 stDevStdStateMeanST=0.0
+95% c.i. = 0.0 +/- 0.0
+
+
+
+REPORT for Queue : Auth----------------------------------------
+
+totArrivThrPut=99.97391034907149 totDeptThrPut=99.97392146018251
+meanTotTkPop=0.7811330808356651 queueUtil=0.2969322724977984
+meanST=0.007813369464593878
+
+
+
+REPORT for Queue of Queueing Place : P/getUser_loginAction----------------------------------------
+
+queueUtilQPl=0.027914648886639717
+
+------------------ Color = loginAction --------------------
+arrivCnt=1498843 deptCnt=1498843
+arrivThrPut=16.653810984169354 deptThrPut=16.653810984169354
+meanTkPop=0.055909161646088286 tkColOcp=0.053932949255241946
+-----
+meanST=0.003357139197702794 stDevST=0.0034479900038309028
+
+Steady State Statistics: numBatchesST=3747 batchSizeST=400 stDevStdStateMeanST=1.8925888664242483E-4
+95% c.i. = 0.0033571373400425025 +/- 6.059859086854971E-6
+
+
+
+REPORT for Depository of Queueing Place : P/getUser_loginAction----------------------------------------
+
+tkOcp=0.0
+
+------------------ Color = loginAction --------------------
+arrivCnt=1498843 deptCnt=1498843
+arrivThrPut=16.653810984169354 deptThrPut=16.653810984169354
+meanTkPop=0.0 tkColOcp=0.0
+-----
+meanST=0.0 stDevST=0.0
+
+Steady State Statistics: numBatchesST=7494 batchSizeST=200 stDevStdStateMeanST=0.0
+95% c.i. = 0.0 +/- 0.0
+
+
+
+REPORT for Queue : Persistence----------------------------------------
+
+totArrivThrPut=99.97392146018251 totDeptThrPut=99.97391034907147
+meanTotTkPop=0.44885542784948146 queueUtil=0.2091323918201416
+meanST=0.004489722313405273
+
+
+
+REPORT for Queue of Queueing Place : W/category----------------------------------------
+
+queueUtilQPl=0.12059870689869182
+
+------------------ Color = category --------------------
+arrivCnt=1499039 deptCnt=1499039
+arrivThrPut=16.655988761930534 deptThrPut=16.655988761930534
+meanTkPop=0.2469323217912172 tkColOcp=0.2095330563022272
+-----
+meanST=0.014825437584084694 stDevST=0.014131602566147308
+
+Steady State Statistics: numBatchesST=3747 batchSizeST=400 stDevStdStateMeanST=9.38637363901637E-4
+95% c.i. = 0.014824772560590838 +/- 3.0054124589919725E-5
+
+
+
+REPORT for Depository of Queueing Place : W/category----------------------------------------
+
+tkOcp=0.0
+
+------------------ Color = category --------------------
+arrivCnt=1499039 deptCnt=1499039
+arrivThrPut=16.655988761930534 deptThrPut=16.655988761930534
+meanTkPop=0.0 tkColOcp=0.0
+-----
+meanST=0.0 stDevST=0.0
+
+Steady State Statistics: numBatchesST=7495 batchSizeST=200 stDevStdStateMeanST=0.0
+95% c.i. = 0.0 +/- 0.0
+
+
+
+REPORT for Queue : WebUI----------------------------------------
+
+totArrivThrPut=99.97392146018251 totDeptThrPut=99.97391034907149
+meanTotTkPop=1.1682437394547494 queueUtil=0.4455517441031753
+meanST=0.011685481717072973
+
+
+
+REPORT for Queue of Queueing Place : W/product----------------------------------------
+
+queueUtilQPl=0.1704378354694155
+
+------------------ Color = product --------------------
+arrivCnt=1499427 deptCnt=1499426
+arrivThrPut=16.660299873008782 deptThrPut=16.660288761897757
+meanTkPop=0.35338382565472715 tkColOcp=0.28567775948804564
+-----
+meanST=0.021211120216387637 stDevST=0.019892875035207924
+
+Steady State Statistics: numBatchesST=3748 batchSizeST=400 stDevStdStateMeanST=0.0012631209339622172
+95% c.i. = 0.02121021379782492 +/- 4.0438331930092477E-5
+
+
+
+REPORT for Depository of Queueing Place : W/product----------------------------------------
+
+tkOcp=0.0
+
+------------------ Color = product --------------------
+arrivCnt=1499426 deptCnt=1499426
+arrivThrPut=16.660288761897757 deptThrPut=16.660288761897757
+meanTkPop=0.0 tkColOcp=0.0
+-----
+meanST=0.0 stDevST=0.0
+
+Steady State Statistics: numBatchesST=7497 batchSizeST=200 stDevStdStateMeanST=0.0
+95% c.i. = 0.0 +/- 0.0
+
+
+
+REPORT for Queue : WebUI----------------------------------------
+
+totArrivThrPut=99.97392146018251 totDeptThrPut=99.97391034907149
+meanTotTkPop=1.1682437394547494 queueUtil=0.4455517441031753
+meanST=0.011685481717072973
+
+
+
+REPORT for Queue of Queueing Place : P/category_category----------------------------------------
+
+queueUtilQPl=0.05009896962795163
+
+------------------ Color = category --------------------
+arrivCnt=1499039 deptCnt=1499039
+arrivThrPut=16.655988761930534 deptThrPut=16.655988761930534
+meanTkPop=0.10053552641266275 tkColOcp=0.09479380233052905
+-----
+meanST=0.00603599869390222 stDevST=0.005965809610318799
+
+Steady State Statistics: numBatchesST=3747 batchSizeST=400 stDevStdStateMeanST=3.11966069953971E-4
+95% c.i. = 0.006035820754581648 +/- 9.98880664120546E-6
+
+
+
+REPORT for Depository of Queueing Place : P/category_category----------------------------------------
+
+tkOcp=0.0
+
+------------------ Color = category --------------------
+arrivCnt=1499039 deptCnt=1499039
+arrivThrPut=16.655988761930534 deptThrPut=16.655988761930534
+meanTkPop=0.0 tkColOcp=0.0
+-----
+meanST=0.0 stDevST=0.0
+
+Steady State Statistics: numBatchesST=7495 batchSizeST=200 stDevStdStateMeanST=0.0
+95% c.i. = 0.0 +/- 0.0
+
+
+
+REPORT for Queue : Persistence----------------------------------------
+
+totArrivThrPut=99.97392146018251 totDeptThrPut=99.97391034907147
+meanTotTkPop=0.44885542784948146 queueUtil=0.2091323918201416
+meanST=0.004489722313405273
+
+
+
+REPORT for Queue of Queueing Place : P/getProduct_product----------------------------------------
+
+queueUtilQPl=0.08857876250218544
+
+------------------ Color = product --------------------
+arrivCnt=1499426 deptCnt=1499425
+arrivThrPut=16.660288761897757 deptThrPut=16.66027765078673
+meanTkPop=0.1785209863760161 tkColOcp=0.1624003266643703
+-----
+meanST=0.010715346906040858 stDevST=0.010583755729073328
+
+Steady State Statistics: numBatchesST=3748 batchSizeST=400 stDevStdStateMeanST=5.532642417958012E-4
+95% c.i. = 0.010715277661924658 +/- 1.771254236489345E-5
+
+
+
+REPORT for Depository of Queueing Place : P/getProduct_product----------------------------------------
+
+tkOcp=0.0
+
+------------------ Color = product --------------------
+arrivCnt=1499425 deptCnt=1499425
+arrivThrPut=16.66027765078673 deptThrPut=16.66027765078673
+meanTkPop=0.0 tkColOcp=0.0
+-----
+meanST=0.0 stDevST=0.0
+
+Steady State Statistics: numBatchesST=7497 batchSizeST=200 stDevStdStateMeanST=0.0
+95% c.i. = 0.0 +/- 0.0
+
+
+
+REPORT for Queue : Persistence----------------------------------------
+
+totArrivThrPut=99.97392146018251 totDeptThrPut=99.97391034907147
+meanTotTkPop=0.44885542784948146 queueUtil=0.2091323918201416
+meanST=0.004489722313405273
+
+
+
+REPORT for Queue of Queueing Place : R/getAds_product----------------------------------------
+
+queueUtilQPl=0.019197059124215085
+
+------------------ Color = product --------------------
+arrivCnt=1499425 deptCnt=1499425
+arrivThrPut=16.66027765078673 deptThrPut=16.66027765078673
+meanTkPop=0.03840588705509563 tkColOcp=0.03769536897413429
+-----
+meanST=0.002305236915021163 stDevST=0.0023059777606771344
+
+Steady State Statistics: numBatchesST=1874 batchSizeST=800 stDevStdStateMeanST=8.272421979087222E-5
+95% c.i. = 0.0023052452890476196 +/- 3.7453807805300676E-6
+
+
+
+REPORT for Depository of Queueing Place : R/getAds_product----------------------------------------
+
+tkOcp=0.0
+
+------------------ Color = product --------------------
+arrivCnt=1499425 deptCnt=1499425
+arrivThrPut=16.66027765078673 deptThrPut=16.66027765078673
+meanTkPop=0.0 tkColOcp=0.0
+-----
+meanST=0.0 stDevST=0.0
+
+Steady State Statistics: numBatchesST=7497 batchSizeST=200 stDevStdStateMeanST=0.0
+95% c.i. = 0.0 +/- 0.0
+
+
+
+REPORT for Queue : Recommender----------------------------------------
+
+totArrivThrPut=16.66027765078673 totDeptThrPut=16.66027765078673
+meanTotTkPop=0.03840588705509563 queueUtil=0.019197059124215085
+meanST=0.002305236915021163
+
+
+
+REPORT for Queue of Queueing Place : I/productImages_category----------------------------------------
+
+queueUtilQPl=0.04534762444890804
+
+------------------ Color = category --------------------
+arrivCnt=1499039 deptCnt=1499039
+arrivThrPut=16.655988761930534 deptThrPut=16.655988761930534
+meanTkPop=0.09089779171663304 tkColOcp=0.08653237214951114
+-----
+meanST=0.005457363895705308 stDevST=0.005396339282642754
+
+Steady State Statistics: numBatchesST=3747 batchSizeST=400 stDevStdStateMeanST=2.735790180711947E-4
+95% c.i. = 0.00545737973644229 +/- 8.759695927852726E-6
+
+
+
+REPORT for Depository of Queueing Place : I/productImages_category----------------------------------------
+
+tkOcp=0.0
+
+------------------ Color = category --------------------
+arrivCnt=1499039 deptCnt=1499039
+arrivThrPut=16.655988761930534 deptThrPut=16.655988761930534
+meanTkPop=0.0 tkColOcp=0.0
+-----
+meanST=0.0 stDevST=0.0
+
+Steady State Statistics: numBatchesST=7495 batchSizeST=200 stDevStdStateMeanST=0.0
+95% c.i. = 0.0 +/- 0.0
+
+
+
+REPORT for Queue : ImageProvider----------------------------------------
+
+totArrivThrPut=99.97392146018251 totDeptThrPut=99.97392146018251
+meanTotTkPop=0.30052381960917846 queueUtil=0.14485980269432544
+meanST=0.0030060221227679925
+
+
+
+REPORT for Queue of Queueing Place : I/product_product----------------------------------------
+
+queueUtilQPl=0.0489857992462469
+
+------------------ Color = product --------------------
+arrivCnt=1499425 deptCnt=1499425
+arrivThrPut=16.66027765078673 deptThrPut=16.66027765078673
+meanTkPop=0.09820420422370355 tkColOcp=0.0931993757646518
+-----
+meanST=0.005894511861215359 stDevST=0.005837637389278469
+
+Steady State Statistics: numBatchesST=3748 batchSizeST=400 stDevStdStateMeanST=2.956433897597294E-4
+95% c.i. = 0.005894569234727678 +/- 9.464909658760553E-6
+
+
+
+REPORT for Depository of Queueing Place : I/product_product----------------------------------------
+
+tkOcp=0.0
+
+------------------ Color = product --------------------
+arrivCnt=1499425 deptCnt=1499425
+arrivThrPut=16.66027765078673 deptThrPut=16.66027765078673
+meanTkPop=0.0 tkColOcp=0.0
+-----
+meanST=0.0 stDevST=0.0
+
+Steady State Statistics: numBatchesST=7497 batchSizeST=200 stDevStdStateMeanST=0.0
+95% c.i. = 0.0 +/- 0.0
+
+
+
+REPORT for Queue : ImageProvider----------------------------------------
+
+totArrivThrPut=99.97392146018251 totDeptThrPut=99.97392146018251
+meanTotTkPop=0.30052381960917846 queueUtil=0.14485980269432544
+meanST=0.0030060221227679925
+
+
+
+REPORT for Queue of Queueing Place : Workload----------------------------------------
+
+queueUtilQPl=1.0
+
+------------------ Color = workload --------------------
+arrivCnt=8997653 deptCnt=8997654
+arrivThrPut=99.97392146018251 deptThrPut=99.97393257129355
+meanTkPop=1.0 tkColOcp=1.0
+-----
+meanST=0.010002607928526275 stDevST=0.010002711281151879
+
+Steady State Statistics: numBatchesST=22494 batchSizeST=400 stDevStdStateMeanST=4.973110300855196E-4
+95% c.i. = 0.010002612364060259 +/- 6.498944637608674E-6
+
+
+
+REPORT for Depository of Queueing Place : Workload----------------------------------------
+
+tkOcp=0.0
+
+------------------ Color = workload --------------------
+arrivCnt=8997654 deptCnt=8997653
+arrivThrPut=99.97393257129355 deptThrPut=99.97392146018251
+meanTkPop=0.0 tkColOcp=0.0
+-----
+meanST=0.0 stDevST=0.0
+
+Steady State Statistics: numBatchesST=44988 batchSizeST=200 stDevStdStateMeanST=0.0
+95% c.i. = 0.0 +/- 0.0
+
+
+
+REPORT for Queue : Workload----------------------------------------
+
+totArrivThrPut=99.97392146018251 totDeptThrPut=99.97393257129355
+meanTotTkPop=1.0 queueUtil=1.0
+meanST=0.010002607928526275
+
+
+
+REPORT for Queue of Queueing Place : I/icon_index----------------------------------------
+
+queueUtilQPl=0.012569973045515156
+
+------------------ Color = index --------------------
+arrivCnt=1500338 deptCnt=1500338
+arrivThrPut=16.67042209515385 deptThrPut=16.67042209515385
+meanTkPop=0.025179616533042886 tkColOcp=0.02448267856086488
+-----
+meanST=0.001510436651772764 stDevST=0.0016032660781160693
+
+Steady State Statistics: numBatchesST=3750 batchSizeST=400 stDevStdStateMeanST=8.624070701593502E-5
+95% c.i. = 0.0015104808293982795 +/- 2.760226781932931E-6
+
+
+
+REPORT for Depository of Queueing Place : I/icon_index----------------------------------------
+
+tkOcp=0.0
+
+------------------ Color = index --------------------
+arrivCnt=1500338 deptCnt=1500338
+arrivThrPut=16.67042209515385 deptThrPut=16.67042209515385
+meanTkPop=0.0 tkColOcp=0.0
+-----
+meanST=0.0 stDevST=0.0
+
+Steady State Statistics: numBatchesST=7501 batchSizeST=200 stDevStdStateMeanST=0.0
+95% c.i. = 0.0 +/- 0.0
+
+
+
+REPORT for Queue : ImageProvider----------------------------------------
+
+totArrivThrPut=99.97392146018251 totDeptThrPut=99.97392146018251
+meanTotTkPop=0.30052381960917846 queueUtil=0.14485980269432544
+meanST=0.0030060221227679925
+
+
+
+REPORT for Queue of Queueing Place : P/categories_login----------------------------------------
+
+queueUtilQPl=0.01875839741744119
+
+------------------ Color = login --------------------
+arrivCnt=1500043 deptCnt=1500043
+arrivThrPut=16.667144317401057 deptThrPut=16.667144317401057
+meanTkPop=0.0376196609948632 tkColOcp=0.03616040583436728
+-----
+meanST=0.0022571149729343266 stDevST=0.0025936223669983964
+
+Steady State Statistics: numBatchesST=3750 batchSizeST=400 stDevStdStateMeanST=1.4726142526239253E-4
+95% c.i. = 0.002257102382041562 +/- 4.713260640126301E-6
+
+
+
+REPORT for Depository of Queueing Place : P/categories_login----------------------------------------
+
+tkOcp=0.0
+
+------------------ Color = login --------------------
+arrivCnt=1500043 deptCnt=1500043
+arrivThrPut=16.667144317401057 deptThrPut=16.667144317401057
+meanTkPop=0.0 tkColOcp=0.0
+-----
+meanST=0.0 stDevST=0.0
+
+Steady State Statistics: numBatchesST=7500 batchSizeST=200 stDevStdStateMeanST=0.0
+95% c.i. = 0.0 +/- 0.0
+
+
+
+REPORT for Queue : Persistence----------------------------------------
+
+totArrivThrPut=99.97392146018251 totDeptThrPut=99.97391034907147
+meanTotTkPop=0.44885542784948146 queueUtil=0.2091323918201416
+meanST=0.004489722313405273
+
+
+
+REPORT for Queue of Queueing Place : I/icon_login----------------------------------------
+
+queueUtilQPl=0.012490164847542333
+
+------------------ Color = login --------------------
+arrivCnt=1500043 deptCnt=1500043
+arrivThrPut=16.667144317401057 deptThrPut=16.667144317401057
+meanTkPop=0.02500474192602544 tkColOcp=0.024444512567196507
+-----
+meanST=0.001500241520073697 stDevST=0.0015915569629707579
+
+Steady State Statistics: numBatchesST=3750 batchSizeST=400 stDevStdStateMeanST=8.267122581307037E-5
+95% c.i. = 0.00150024984086556 +/- 2.6459816886971736E-6
+
+
+
+REPORT for Depository of Queueing Place : I/icon_login----------------------------------------
+
+tkOcp=0.0
+
+------------------ Color = login --------------------
+arrivCnt=1500043 deptCnt=1500043
+arrivThrPut=16.667144317401057 deptThrPut=16.667144317401057
+meanTkPop=0.0 tkColOcp=0.0
+-----
+meanST=0.0 stDevST=0.0
+
+Steady State Statistics: numBatchesST=7500 batchSizeST=200 stDevStdStateMeanST=0.0
+95% c.i. = 0.0 +/- 0.0
+
+
+
+REPORT for Queue : ImageProvider----------------------------------------
+
+totArrivThrPut=99.97392146018251 totDeptThrPut=99.97392146018251
+meanTotTkPop=0.30052381960917846 queueUtil=0.14485980269432544
+meanST=0.0030060221227679925
+
+
+
+REPORT for Queue of Queueing Place : A/isLoggedIn_login----------------------------------------
+
+queueUtilQPl=0.02524370084951352
+
+------------------ Color = login --------------------
+arrivCnt=1500043 deptCnt=1500043
+arrivThrPut=16.667144317401057 deptThrPut=16.667144317401057
+meanTkPop=0.05241318127091815 tkColOcp=0.044033181071521973
+-----
+meanST=0.0031447007521376675 stDevST=0.008016836988121693
+
+Steady State Statistics: numBatchesST=3750 batchSizeST=400 stDevStdStateMeanST=6.203442530583525E-4
+95% c.i. = 0.003144606999061038 +/- 1.9854786452451715E-5
+
+
+
+REPORT for Depository of Queueing Place : A/isLoggedIn_login----------------------------------------
+
+tkOcp=0.0
+
+------------------ Color = login --------------------
+arrivCnt=1500043 deptCnt=1500043
+arrivThrPut=16.667144317401057 deptThrPut=16.667144317401057
+meanTkPop=0.0 tkColOcp=0.0
+-----
+meanST=0.0 stDevST=0.0
+
+Steady State Statistics: numBatchesST=7500 batchSizeST=200 stDevStdStateMeanST=0.0
+95% c.i. = 0.0 +/- 0.0
+
+
+
+REPORT for Queue : Auth----------------------------------------
+
+totArrivThrPut=99.97391034907149 totDeptThrPut=99.97392146018251
+meanTotTkPop=0.7811330808356651 queueUtil=0.2969322724977984
+meanST=0.007813369464593878
+
+
+
+REPORT for Queue of Queueing Place : A/isLoggedIn_category----------------------------------------
+
+queueUtilQPl=0.030083047398484438
+
+------------------ Color = category --------------------
+arrivCnt=1499039 deptCnt=1499039
+arrivThrPut=16.655988761930534 deptThrPut=16.655988761930534
+meanTkPop=0.061857197567789714 tkColOcp=0.053861900058313567
+-----
+meanST=0.0037138111973978112 stDevST=0.007907114674002229
+
+Steady State Statistics: numBatchesST=3747 batchSizeST=400 stDevStdStateMeanST=6.284997620493644E-4
+95% c.i. = 0.003713534981395233 +/- 2.012386346400115E-5
+
+
+
+REPORT for Depository of Queueing Place : A/isLoggedIn_category----------------------------------------
+
+tkOcp=0.0
+
+------------------ Color = category --------------------
+arrivCnt=1499039 deptCnt=1499039
+arrivThrPut=16.655988761930534 deptThrPut=16.655988761930534
+meanTkPop=0.0 tkColOcp=0.0
+-----
+meanST=0.0 stDevST=0.0
+
+Steady State Statistics: numBatchesST=7495 batchSizeST=200 stDevStdStateMeanST=0.0
+95% c.i. = 0.0 +/- 0.0
+
+
+
+REPORT for Queue : Auth----------------------------------------
+
+totArrivThrPut=99.97391034907149 totDeptThrPut=99.97392146018251
+meanTotTkPop=0.7811330808356651 queueUtil=0.2969322724977984
+meanST=0.007813369464593878
+
+
+
+REPORT for Queue of Queueing Place : I/icon_logout----------------------------------------
+
+queueUtilQPl=0.013968253228857055
+
+------------------ Color = logout --------------------
+arrivCnt=1499965 deptCnt=1499965
+arrivThrPut=16.666277650740994 deptThrPut=16.666277650740994
+meanTkPop=0.027968673558295135 tkColOcp=0.02726174048834769
+-----
+meanST=0.0016781595833459326 stDevST=0.00174705970478304
+
+Steady State Statistics: numBatchesST=1874 batchSizeST=800 stDevStdStateMeanST=6.542351709981634E-5
+95% c.i. = 0.0016781303893437236 +/- 2.962082739006619E-6
+
+
+
+REPORT for Depository of Queueing Place : I/icon_logout----------------------------------------
+
+tkOcp=0.0
+
+------------------ Color = logout --------------------
+arrivCnt=1499965 deptCnt=1499965
+arrivThrPut=16.666277650740994 deptThrPut=16.666277650740994
+meanTkPop=0.0 tkColOcp=0.0
+-----
+meanST=0.0 stDevST=0.0
+
+Steady State Statistics: numBatchesST=7499 batchSizeST=200 stDevStdStateMeanST=0.0
+95% c.i. = 0.0 +/- 0.0
+
+
+
+REPORT for Queue : ImageProvider----------------------------------------
+
+totArrivThrPut=99.97392146018251 totDeptThrPut=99.97392146018251
+meanTotTkPop=0.30052381960917846 queueUtil=0.14485980269432544
+meanST=0.0030060221227679925
+
+
+
+REPORT for Queue of Queueing Place : I/icon_loginAction----------------------------------------
+
+queueUtilQPl=0.016625278946930836
+
+------------------ Color = loginAction --------------------
+arrivCnt=1498843 deptCnt=1498843
+arrivThrPut=16.653810984169354 deptThrPut=16.653810984169354
+meanTkPop=0.03326879165147841 tkColOcp=0.03256863122294649
+-----
+meanST=0.0019976683825163374 stDevST=0.0020284124760800003
+
+Steady State Statistics: numBatchesST=3747 batchSizeST=400 stDevStdStateMeanST=1.044155942138733E-4
+95% c.i. = 0.0019976767237914503 +/- 3.3432712124201186E-6
+
+
+
+REPORT for Depository of Queueing Place : I/icon_loginAction----------------------------------------
+
+tkOcp=0.0
+
+------------------ Color = loginAction --------------------
+arrivCnt=1498843 deptCnt=1498843
+arrivThrPut=16.653810984169354 deptThrPut=16.653810984169354
+meanTkPop=0.0 tkColOcp=0.0
+-----
+meanST=0.0 stDevST=0.0
+
+Steady State Statistics: numBatchesST=7494 batchSizeST=200 stDevStdStateMeanST=0.0
+95% c.i. = 0.0 +/- 0.0
+
+
+
+REPORT for Queue : ImageProvider----------------------------------------
+
+totArrivThrPut=99.97392146018251 totDeptThrPut=99.97392146018251
+meanTotTkPop=0.30052381960917846 queueUtil=0.14485980269432544
+meanST=0.0030060221227679925
+
+
+
+REPORT for Queue of Queueing Place : A/isLoggedIn_product----------------------------------------
+
+queueUtilQPl=0.03180086697966285
+
+------------------ Color = product --------------------
+arrivCnt=1499425 deptCnt=1499425
+arrivThrPut=16.66027765078673 deptThrPut=16.66027765078673
+meanTkPop=0.06521690934381084 tkColOcp=0.0571351618189677
+-----
+meanST=0.00391451515459775 stDevST=0.008002051007881036
+
+Steady State Statistics: numBatchesST=3748 batchSizeST=400 stDevStdStateMeanST=6.199536023972602E-4
+95% c.i. = 0.003914339152952379 +/- 1.9847576649970146E-5
+
+
+
+REPORT for Depository of Queueing Place : A/isLoggedIn_product----------------------------------------
+
+tkOcp=0.0
+
+------------------ Color = product --------------------
+arrivCnt=1499425 deptCnt=1499425
+arrivThrPut=16.66027765078673 deptThrPut=16.66027765078673
+meanTkPop=0.0 tkColOcp=0.0
+-----
+meanST=0.0 stDevST=0.0
+
+Steady State Statistics: numBatchesST=7497 batchSizeST=200 stDevStdStateMeanST=0.0
+95% c.i. = 0.0 +/- 0.0
+
+
+
+REPORT for Queue : Auth----------------------------------------
+
+totArrivThrPut=99.97391034907149 totDeptThrPut=99.97392146018251
+meanTotTkPop=0.7811330808356651 queueUtil=0.2969322724977984
+meanST=0.007813369464593878
+
+
+
+REPORT for Queue of Queueing Place : P/category_logout----------------------------------------
+
+queueUtilQPl=0.01925464064495723
+
+------------------ Color = logout --------------------
+arrivCnt=1499965 deptCnt=1499965
+arrivThrPut=16.666277650740994 deptThrPut=16.666277650740994
+meanTkPop=0.03861830606644577 tkColOcp=0.03707788320071046
+-----
+meanST=0.0023171524485390274 stDevST=0.0026038754971315654
+
+Steady State Statistics: numBatchesST=3749 batchSizeST=400 stDevStdStateMeanST=1.4780241487202776E-4
+95% c.i. = 0.0023171414996006876 +/- 4.731206465273678E-6
+
+
+
+REPORT for Depository of Queueing Place : P/category_logout----------------------------------------
+
+tkOcp=0.0
+
+------------------ Color = logout --------------------
+arrivCnt=1499965 deptCnt=1499965
+arrivThrPut=16.666277650740994 deptThrPut=16.666277650740994
+meanTkPop=0.0 tkColOcp=0.0
+-----
+meanST=0.0 stDevST=0.0
+
+Steady State Statistics: numBatchesST=7499 batchSizeST=200 stDevStdStateMeanST=0.0
+95% c.i. = 0.0 +/- 0.0
+
+
+
+REPORT for Queue : Persistence----------------------------------------
+
+totArrivThrPut=99.97392146018251 totDeptThrPut=99.97391034907147
+meanTotTkPop=0.44885542784948146 queueUtil=0.2091323918201416
+meanST=0.004489722313405273
+
+
+
+REPORT for Ordinary Place : Finish_index----------------------------------------
+
+tkOcp=0.9999999999999999
+
+------------------ Color = index --------------------
+arrivCnt=1500338 deptCnt=0
+arrivThrPut=16.67042209515385 deptThrPut=0.0
+meanTkPop=916839.2966948398 tkColOcp=0.9999999999999999
+-----
+meanST=NaN stDevST=NaN
+
+Steady State Statistics: Only 0 batches collected!
+Need at least 60 for steady state statistics.
+
+
+
+REPORT for Ordinary Place : Finish_login----------------------------------------
+
+tkOcp=0.9999999999999999
+
+------------------ Color = login --------------------
+arrivCnt=1500043 deptCnt=0
+arrivThrPut=16.667144317401057 deptThrPut=0.0
+meanTkPop=916866.982841545 tkColOcp=0.9999999999999999
+-----
+meanST=NaN stDevST=NaN
+
+Steady State Statistics: Only 0 batches collected!
+Need at least 60 for steady state statistics.
+
+
+
+REPORT for Ordinary Place : Finish_loginAction----------------------------------------
+
+tkOcp=1.0
+
+------------------ Color = loginAction --------------------
+arrivCnt=1498843 deptCnt=0
+arrivThrPut=16.653810984169354 deptThrPut=0.0
+meanTkPop=916936.0715952135 tkColOcp=1.0
+-----
+meanST=NaN stDevST=NaN
+
+Steady State Statistics: Only 0 batches collected!
+Need at least 60 for steady state statistics.
+
+
+
+REPORT for Ordinary Place : Finish_category----------------------------------------
+
+tkOcp=1.0
+
+------------------ Color = category --------------------
+arrivCnt=1499039 deptCnt=0
+arrivThrPut=16.655988761930534 deptThrPut=0.0
+meanTkPop=915979.2478993632 tkColOcp=1.0
+-----
+meanST=NaN stDevST=NaN
+
+Steady State Statistics: Only 0 batches collected!
+Need at least 60 for steady state statistics.
+
+
+
+REPORT for Ordinary Place : Finish_product----------------------------------------
+
+tkOcp=1.0
+
+------------------ Color = product --------------------
+arrivCnt=1499425 deptCnt=0
+arrivThrPut=16.66027765078673 deptThrPut=0.0
+meanTkPop=916847.0945994662 tkColOcp=1.0
+-----
+meanST=NaN stDevST=NaN
+
+Steady State Statistics: Only 0 batches collected!
+Need at least 60 for steady state statistics.
+
+
+
+REPORT for Ordinary Place : Finish_logout----------------------------------------
+
+tkOcp=0.9999999999999999
+
+------------------ Color = logout --------------------
+arrivCnt=1499965 deptCnt=0
+arrivThrPut=16.666277650740994 deptThrPut=0.0
+meanTkPop=917332.9358917602 tkColOcp=0.9999999999999999
+-----
+meanST=NaN stDevST=NaN
+
+Steady State Statistics: Only 0 batches collected!
+Need at least 60 for steady state statistics.
+
+
+
+REPORT REPORT for Probe : /index----------------------------------------
+
+
+------------------ Color = index --------------------
+-----
+meanST=0.014007673971275444 stDevST=0.012390403624092184
+
+Steady State Statistics: numBatchesST=3750 batchSizeST=400 stDevStdStateMeanST=9.479566606481171E-4
+95% c.i. = 0.014007471476527039 +/- 3.0340374671895557E-5
+-----
+Histogram Data
+   10% percentile=100.0
+   20% percentile=100.0
+   30% percentile=100.0
+   40% percentile=100.0
+   50% percentile=100.0
+   60% percentile=100.0
+   70% percentile=100.0
+   80% percentile=100.0
+   90% percentile=100.0
+   histogramMean=50.0
+Token sojourn times dumped in C:\Users\lliao\Downloads\qpme_models
+
+
+
+REPORT REPORT for Probe : /login----------------------------------------
+
+
+------------------ Color = login --------------------
+-----
+meanST=0.014053675913320306 stDevST=0.012413883330333168
+
+Steady State Statistics: numBatchesST=3750 batchSizeST=400 stDevStdStateMeanST=9.394614057296358E-4
+95% c.i. = 0.01405326585430541 +/- 3.0068474881683877E-5
+-----
+Histogram Data
+   10% percentile=100.0
+   20% percentile=100.0
+   30% percentile=100.0
+   40% percentile=100.0
+   50% percentile=100.0
+   60% percentile=100.0
+   70% percentile=100.0
+   80% percentile=100.0
+   90% percentile=100.0
+   histogramMean=50.0
+Token sojourn times dumped in C:\Users\lliao\Downloads\qpme_models
+
+
+
+REPORT REPORT for Probe : /loginAction----------------------------------------
+
+
+------------------ Color = loginAction --------------------
+-----
+meanST=0.04413847384459207 stDevST=0.030177617586489538
+
+Steady State Statistics: numBatchesST=3747 batchSizeST=400 stDevStdStateMeanST=0.0019343219328099934
+95% c.i. = 0.04413806315756063 +/- 6.193483724538583E-5
+-----
+Histogram Data
+   10% percentile=100.0
+   20% percentile=100.0
+   30% percentile=100.0
+   40% percentile=100.0
+   50% percentile=100.0
+   60% percentile=100.0
+   70% percentile=100.0
+   80% percentile=100.0
+   90% percentile=100.0
+   histogramMean=50.0
+Token sojourn times dumped in C:\Users\lliao\Downloads\qpme_models
+
+
+
+REPORT REPORT for Probe : /logout----------------------------------------
+
+
+------------------ Color = logout --------------------
+-----
+meanST=0.01802353147891444 stDevST=0.01359197636361536
+
+Steady State Statistics: numBatchesST=3749 batchSizeST=400 stDevStdStateMeanST=0.0010061157356352334
+95% c.i. = 0.018023221471145313 +/- 3.2206112987886486E-5
+-----
+Histogram Data
+   10% percentile=100.0
+   20% percentile=100.0
+   30% percentile=100.0
+   40% percentile=100.0
+   50% percentile=100.0
+   60% percentile=100.0
+   70% percentile=100.0
+   80% percentile=100.0
+   90% percentile=100.0
+   histogramMean=50.0
+Token sojourn times dumped in C:\Users\lliao\Downloads\qpme_models
+
+
+
+REPORT REPORT for Probe : /category----------------------------------------
+
+
+------------------ Color = category --------------------
+-----
+meanST=0.030032611371090034 stDevST=0.018216774943653744
+
+Steady State Statistics: numBatchesST=3747 batchSizeST=400 stDevStdStateMeanST=0.0012458799530036821
+95% c.i. = 0.03003150803300999 +/- 3.989169062694574E-5
+-----
+Histogram Data
+   10% percentile=100.0
+   20% percentile=100.0
+   30% percentile=100.0
+   40% percentile=100.0
+   50% percentile=100.0
+   60% percentile=100.0
+   70% percentile=100.0
+   80% percentile=100.0
+   90% percentile=100.0
+   histogramMean=50.0
+Token sojourn times dumped in C:\Users\lliao\Downloads\qpme_models
+
+
+
+REPORT REPORT for Probe : /product----------------------------------------
+
+
+------------------ Color = product --------------------
+-----
+meanST=0.04404074396004167 stDevST=0.02486659860056941
+
+Steady State Statistics: numBatchesST=3748 batchSizeST=400 stDevStdStateMeanST=0.0015751849324797834
+95% c.i. = 0.04403964513647722 +/- 5.042894107620192E-5
+-----
+Histogram Data
+   10% percentile=100.0
+   20% percentile=100.0
+   30% percentile=100.0
+   40% percentile=100.0
+   50% percentile=100.0
+   60% percentile=100.0
+   70% percentile=100.0
+   80% percentile=100.0
+   90% percentile=100.0
+   histogramMean=50.0
+Token sojourn times dumped in C:\Users\lliao\Downloads\qpme_models
+
+
+
